@@ -9,10 +9,10 @@ import java.nio.file.Paths;
 
 
 public class ResourceLocator {
-    private static String imagePathWithJavaDir = "Java/BreakOut_JavaFX/src/main/java/de/oose/breakout/assets/images/";
+    private static String imagePathWithJavaDir = "BreakOut_JavaFX/src/main/java/de/oose/breakout/assets/images/";
     private static String imagePathWithoutJavaDir = "file:src/main/java/de/oose/breakout/assets/images/";
 
-    private static String soundPathWithJavaDir = "Java/BreakOut_JavaFX/src/main/java/de/oose/breakout/assets/sounds/";
+    private static String soundPathWithJavaDir = "BreakOut_JavaFX/src/main/java/de/oose/breakout/assets/sounds/";
     private static String soundPathWithoutJavaDir = "file:src/main/java/de/oose/breakout/assets/sounds/";
 
     public static Image getImage(String name) {
