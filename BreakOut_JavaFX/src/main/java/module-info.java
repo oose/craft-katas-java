@@ -8,7 +8,7 @@ module de.oose.breakout {
     requires org.apache.logging.log4j;
     requires javafx.media;
     requires java.logging;
-    requires java.persistence;
+    requires jakarta.persistence;
     requires java.sql;
     requires org.hsqldb;
     requires org.hibernate.orm.core;

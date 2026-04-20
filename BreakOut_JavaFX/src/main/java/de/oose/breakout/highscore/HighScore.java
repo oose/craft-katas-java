@@ -1,6 +1,6 @@
 package de.oose.breakout.highscore;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @NamedQuery(name = "HighScore.getByName", query = "SELECT h FROM HighScore h WHERE h.name = :name")

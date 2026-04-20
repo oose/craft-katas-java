@@ -3,7 +3,7 @@ package de.oose.breakout.highscore.impl;
 import de.oose.breakout.highscore.HighScore;
 import de.oose.breakout.highscore.HighScoreDAO;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 public class HighScoreDAOHibernate implements HighScoreDAO {
