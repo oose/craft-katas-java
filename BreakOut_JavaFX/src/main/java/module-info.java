@@ -2,8 +2,6 @@ module de.oose.breakout {
     requires javafx.controls;
     requires javafx.fxml;
 
-    requires com.dlsc.formsfx;
-    requires org.kordamp.bootstrapfx.core;
     requires java.desktop;
     requires org.apache.logging.log4j;
     requires javafx.media;
